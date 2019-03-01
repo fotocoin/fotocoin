@@ -1,0 +1,26 @@
+# /etc/conf.d/fotocoind: config file for /etc/init.d/fotocoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/fotocoin/fotocoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/fotocoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/fotocoind.pid"
+
+# Where to write fotocoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/fotocoind"
+
+# User and group to own fotocoind process
+#BITCOIND_USER="fotocoin"
+#BITCOIND_GROUP="fotocoin"
+
+# Path to fotocoind executable
+#BITCOIND_BIN="/usr/bin/fotocoind"
+
+# Nice value to run fotocoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

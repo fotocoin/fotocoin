@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/fotocoin_bg.qm</file>
+        <file alias="de">locale/fotocoin_de.qm</file>
+        <file alias="en">locale/fotocoin_en.qm</file>
+        <file alias="es">locale/fotocoin_es.qm</file>
+        <file alias="fi">locale/fotocoin_fi.qm</file>
+        <file alias="fr">locale/fotocoin_fr.qm</file>
+        <file alias="it">locale/fotocoin_it.qm</file>
+        <file alias="ja">locale/fotocoin_ja.qm</file>
+        <file alias="pl">locale/fotocoin_pl.qm</file>
+        <file alias="pt">locale/fotocoin_pt.qm</file>
+        <file alias="ru">locale/fotocoin_ru.qm</file>
+        <file alias="sk">locale/fotocoin_sk.qm</file>
+        <file alias="sv">locale/fotocoin_sv.qm</file>
+        <file alias="vi">locale/fotocoin_vi.qm</file>
+        <file alias="zh_CN">locale/fotocoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/fotocoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

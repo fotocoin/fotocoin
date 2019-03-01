@@ -1,0 +1,26 @@
+[Unit]
+Description=FotoCoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=fotocoin
+Group=fotocoin
+
+Type=forking
+PIDFile=/var/lib/fotocoind/fotocoind.pid
+
+ExecStart=/usr/bin/fotocoind -daemon -pid=/var/lib/fotocoind/fotocoind.pid \
+          -conf=/etc/fotocoin/fotocoin.conf -datadir=/var/lib/fotocoind
+
+ExecStop=-/usr/bin/fotocoin-cli -conf=/etc/fotocoin/fotocoin.conf \
+         -datadir=/var/lib/fotocoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=FotoCoin
+Comment=FotoCoin P2P Cryptocurrency
+Exec=fotocoin-qt %u
+Terminal=false
+Type=Application
+Icon=fotocoin128
+MimeType=x-scheme-handler/fotocoin;
+Categories=Office;Finance;
+Name[en_US]=fotocoin-qt.desktop
